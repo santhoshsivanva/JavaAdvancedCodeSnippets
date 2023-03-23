@@ -17,9 +17,3 @@ public @interface author {
     String name() default "";
 }
 
-//multi valued annotations
-// public @interface author {
-//     //default annotation is also possible
-//     String name() default "";
-// String name() default "";
-// }

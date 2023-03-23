@@ -6,7 +6,7 @@ package javaDoc;
     String project();
     String date() default "today";  //for setting defualt values
     String version() default "13";
-            }
+}
 
 //annotation
 @MyAnno(name="Ajay",project="Bank")
@@ -20,6 +20,5 @@ public class AnnoDemo
     public static void main(String[] args) 
     {
         //@MyAnno(name="Ajay")
-        int x;
     }
 }

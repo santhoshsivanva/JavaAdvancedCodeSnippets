@@ -2,8 +2,6 @@ package javaDoc;
 
 import java.awt.*;
 
-import javax.swing.text.LabelView;
-
 public class FirstAppdemo2 extends Frame {
 	
 	Label l;

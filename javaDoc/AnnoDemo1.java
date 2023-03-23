@@ -4,7 +4,7 @@ import java.lang.annotation.*;
 
 //@Retention(RetentionPolicy.Class)
 @Documented
-@Target(value=ElementType.LOCAL_VARIABLE);
+@Target(value=ElementType.LOCAL_VARIABLE)
 //@Repeatable(MyAnndo.class) if you are using the interface then it must be publi
 
 @interface nes{

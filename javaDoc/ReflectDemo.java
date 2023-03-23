@@ -34,8 +34,6 @@ public class ReflectDemo
     	for(Field x:field) {
     		System.out.println(x);
     	}
-//        Field field[]=c.getDeclaredFields();
-//        
         Method meth[]=hf.getMethods();
         
         for(Method m:meth)

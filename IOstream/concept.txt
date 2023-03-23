@@ -1,0 +1,51 @@
+# In Java, an input stream is a sequence of data that can be read from a source, such as a file, network connection, or user input. 
+# Similarly, an output stream is a sequence of data that can be written to a destination, such as a file, network connection, or display.
+
+> Output stream ( writing the data to the output stream)
+> Input stream ( reading the data from the input stream)
+
+
+There are several classes in input and output streams
+
+InputStream, OutputStream, FileInputStream, FileOutputStream
+DataOutputStream, DataInputStream, BufferedInputStream, BufferedOutput
+
+
+Here the InputStream and OutputStream classes are the abstarct classes which provide methods for
+all the remaining concrete classes
+
+
+InputStream: This is an abstract class that represents an input stream. It provides methods for reading bytes of data from the stream.
+OutputStream: This is an abstract class that represents an output stream. It provides methods for writing bytes of data to the stream.
+FileInputStream: This is a concrete class that extends InputStream and represents an input stream that reads data from a file.
+FileOutputStream: This is a concrete class that extends OutputStream and represents an output stream that writes data to a file.
+DataInputStream: This is a concrete class that extends InputStream and provides methods for reading primitive data types, such as integers and floats, from the stream.
+DataOutputStream: This is a concrete class that extends OutputStream and provides methods for writing primitive data types to the stream.
+BufferedInputStream: This is a concrete class that extends InputStream and provides buffering capabilities for more efficient reading of data from the stream.
+BufferedOutputStream: This is a concrete class that extends OutputStream and provides buffering capabilities for more efficient writing of data to the stream.
+More recommended to use the BufferendSTREAM AND fILE streams
+
+
+We have to implement two different programs which are:
+based on
+> Charater Stream (: if your data is full of characters then simply use this concept of character stream)
+> Byte Stream (: if you dont know what type of data it is the use byte stream )
+
+Character Stream internally uses the concept of Byte Stream.
+
+Thie is the way we have to do this :
+
+        try {
+                if (fo != null) {
+                    fo.close();
+                }
+                if (fi != null) {
+                    fi.close();
+                }
+
+            } 
+            
+        catch (IOException e) {
+                e.printStackTrace();
+            }
+
